@@ -50,6 +50,10 @@ static const char *eventName;
 static ES_Event storedEvent;
 #endif
 
+
+
+
+
 /*******************************************************************************
  * PRIVATE FUNCTION PROTOTYPES                                                 *
  ******************************************************************************/
@@ -107,6 +111,30 @@ uint8_t TemplateCheckBattery(void) {
     }
     return (returnVal);
 }
+
+
+
+//defining the tape sensor trigger point, these values are subject to change 
+#define TAPE_SENSOR_LOWER_THRESHOLD 500
+#define TAPE_SENSOR_UPPER_THRESHOLD 300
+
+
+// defining the values of the ultrasonic sensors, these values are subject to change
+#define ULTRASONIC_SENSOR_LOWER_THRESHOLD 200
+#define ULTRASONIC_SENSOR_UPPER_THRESHOLD 800
+
+// defining the values of the trackwire sensors, these values are subject to change
+#define TRACKWIRE_SENSOR_LOWER_THRESHOLD 200
+#define TRACKWIRE_SENSOR_UPPER_THRESHOLD 800
+
+// defining the values of the bumper sensors, these values are subject to change
+#define BUMPER_SENSOR_FRONT_LEFT 
+#define BUMPER_SENSOR_FRONT_RIGHT
+#define BUMPER_SENSOR_REAR_LEFT
+#define BUMPER_SENSOR_REAR_RIGHT
+
+
+
 
 /* 
  * The Test Harness for the event checkers is conditionally compiled using
