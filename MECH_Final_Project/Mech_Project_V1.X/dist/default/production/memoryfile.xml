@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<project>                                  
+  <executable name="dist/default/production/Mech_Project_V1.X.production.elf">                 
+    <memory name="program">                 
+      <units>bytes</units>                 
+      <length>126464</length>                 
+      <used>46856</used>                     
+      <free>79608</free>                     
+    </memory>                              
+    <memory name="data">              
+      <units>bytes</units>                 
+      <length>16384</length>                 
+      <used>3804</used>                     
+      <free>12580</free>                     
+    </memory>                              
+  </executable>                            
+</project>                                 
